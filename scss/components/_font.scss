@@ -1,0 +1,49 @@
+$font-name: 'Ubuntu';
+$font-dir-name: 'dark_typora';
+
+@font-face {
+  font-family: $font-name;
+  font-style: normal;
+  font-weight: normal;
+  src: local($font-name), local('#{$font-name}-Regular'), url('./#{$font-dir-name}/#{$font-name}-Regular.ttf') format('truetype');
+}
+
+@font-face {
+  font-family: $font-name;
+  font-style: italic;
+  font-weight: normal;
+  src: local('#{$font-name} Italic'), local('#{$font-name}-Italic'), url('./#{$font-dir-name}/#{$font-name}-Italic.ttf') format('truetype');
+}
+
+@font-face {
+  font-family: $font-name;
+  font-style: normal;
+  font-weight: bold;
+  src: local('#{$font-name} Bold'), local('#{$font-name}-Bold'), url('./#{$font-dir-name}/#{$font-name}-Bold.ttf') format('truetype');
+}
+
+@font-face {
+  font-family: $font-name;
+  font-style: italic;
+  font-weight: bold;
+  src: local('#{$font-name} BoldItalic'), local('#{$font-name}-BoldItalic'), url('./#{$font-dir-name}/#{$font-name}-BoldItalic.ttf') format('truetype');
+}
+
+@font-face {
+  font-family: $font-name;
+  font-style: normal;
+  font-weight: 300;
+  src: local('#{$font-name} Light'), local('#{$font-name}-Light'), url('./#{$font-dir-name}/#{$font-name}-Light.ttf') format('truetype');
+}
+
+@font-face {
+  font-family: $font-name;
+  font-style: italic;
+  font-weight: 300;
+  src: local('#{$font-name} LightItalic'), local('#{$font-name}-LightItalic'), url('./#{$font-dir-name}/#{$font-name}-LightItalic.ttf') format('truetype');
+}
+
+html, body {
+  font-family: 'Ubuntu';
+  -webkit-font-smoothing: antialiased;
+}

@@ -1,0 +1,32 @@
+$highlight: #181818;
+$primary: #282828;
+$secondary: #303030;
+
+$accent: #1eaedb;
+$mention: rgba(250, 166, 26, .1);
+
+$white-primary: #ededed;
+$white-secondary: #cecece;
+
+$very-light-gray: #bdbdbd;
+$light-gray: #9e9e9e;
+$grey: #c5c8c6;
+$blue: #2196f3;
+$purple: #a36ac7;
+$green: #198844;
+$red: #ff4500;
+$orange: #fba922;
+
+:root {
+  --active-file-bg-color: #{$secondary};
+  --bg-color: #{$primary};
+  --control-text-color: #{$white-secondary};
+  --item-hover-bg-color: #{$secondary};
+  --item-hover-text-color: #{$white-primary};
+  --monospace: "Lucida Console", Consolas, "Courier", monospace;
+  --select-text-bg-color: rgba(0, 0, 0, .5);
+  --select-text-font-color: auto;
+  --side-bar-bg-color: #{$secondary};
+  --text-color: #{$white-primary};
+  --window-border-color: rgba(217, 217, 217);
+}

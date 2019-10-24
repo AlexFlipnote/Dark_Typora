@@ -1,0 +1,33 @@
+.CodeMirror-gutters { border-right: 0; }
+
+.CodeMirror-selectedtext, .CodeMirror-selected {
+  color: $very-light-gray !important;
+}
+
+.cm-s-inner {
+  color: $very-light-gray;
+
+  .cm-comment, &.cm-comment { color: $light-gray; }
+  .cm-header, .cm-def, &.cm-header, &.cm-def, .cm-property { color: $red; }
+
+  .cm-positive { color: $green; }
+  .cm-negative { color: $red; }
+
+  .cm-error {
+    background-color: $red;
+    color: $highlight;
+  }
+
+  .cm-operator { color: $grey; }
+  .cm-variable, .cm-keyword, .cm-builtin, .cm-number { color: $orange; }
+  .cm-atom, &.cm-atom { color: $orange; }
+
+  .cm-variable, .cm-variable-2 { color: $very-light-gray; }
+  .cm-variable-3 { color: $orange; }
+  .cm-bracket { color: $very-light-gray; }
+  .cm-link, .cm-tag { color: $purple; text-decoration: none; }
+
+  .cm-string, .cm-string-2, .cm-quote, &.cm-quote { color: $green; }
+  .cm-attribute { color: $blue; }
+  .cm-hr, .cm-meta, .cm-qualifier { color: $very-light-gray; }
+}

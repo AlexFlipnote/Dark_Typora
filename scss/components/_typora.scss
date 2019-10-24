@@ -1,0 +1,60 @@
+.CodeMirror-lines { padding-left: 4px; }
+
+.code-tooltip {
+  border-top: 1px solid $secondary;
+  box-shadow: 0 1px 1px 0 rgba(0, 28, 36, .3);
+  color: $white-secondary;
+}
+
+code, tt {
+  background-color: $secondary;
+  border: 1px solid $secondary;
+  border-radius: 3px;
+  font-size: .9em;
+  padding: .2em .4em;
+}
+
+.md-fences {
+  background-color: $secondary;
+  border-radius: 0;
+  font-size: .9em;
+  padding: 16px;
+}
+
+sup.md-footnote {
+  background-color: $highlight;
+  color: $white-primary;
+}
+
+.btn-default {
+  background: $highlight;
+  border: 0;
+  border-radius: 0;
+  &:hover { background: $secondary; }
+}
+
+button.btn-default {
+  background: $highlight;
+  border: 0;
+  color: $white-primary !important;
+  &:hover { background: $secondary; }
+}
+
+.nav-group-item {
+  border-radius: 0 !important;
+  transition: all 300ms ease;
+  &:active { background: $primary !important; }
+  &:hover {
+    background: $secondary;
+    transform: translateX(.4em);
+    transition: all 300ms ease;
+  }
+}
+
+.content tr.search-hit, .search-hit {
+  background: $mention !important;
+}
+
+.typora-sourceview-on #toggle-sourceview-btn {
+  background: transparent;
+}
