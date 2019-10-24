@@ -14,4 +14,4 @@ Get Typora from https://www.typora.io, it's a free markdown text editor (better 
 You're more than welcome to contribute to the project by forking it and adding/changing whatever you think would be a good addition. Keep in mind that the project uses SASS (.scss) and not pure CSS, so you will have to download such from [here](https://sass-lang.com).
 
 ## Preview
-![Preview](https://i.alexflipnote.dev/27h4wvH.png)
+![Preview](https://i.alexflipnote.dev/4zCLLxu.png)
