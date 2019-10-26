@@ -14,6 +14,11 @@ code, tt {
   padding: .2em .4em;
 }
 
+pre.md-meta-block {
+  background: $secondary;
+  padding: 8px;
+}
+
 .md-fences {
   background-color: $secondary;
   border-radius: 0;
