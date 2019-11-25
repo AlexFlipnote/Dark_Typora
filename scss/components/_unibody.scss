@@ -1,0 +1,19 @@
+.megamenu-content {
+  background: $primary;
+}
+
+.megamenu-opened {
+  .megamenu-menu { left: 0; }
+  header { background: transparent; }
+}
+
+.megamenu-menu-header { border-bottom: 2px solid $secondary; }
+.megamenu-menu { background-color: $highlight; }
+#recent-file-panel-action-btn { background: transparent; }
+
+.megamenu-menu-list li a[title="Saved"]:hover { background-color: transparent; }
+
+#recent-file-panel tbody tr {
+  &:nth-child(2n-1), &:nth-child(2n) { background-color: $secondary; }
+  &:hover { background-color: $secondary; }
+}
